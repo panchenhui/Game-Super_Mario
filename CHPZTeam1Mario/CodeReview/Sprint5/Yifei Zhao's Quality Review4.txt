@@ -1,0 +1,12 @@
+﻿Yifei zhao
+7/19/2016
+Sprint5
+Chenhui Pan
+Sound.cs
+Code Quality:
+The overall quality of this class is good. Most of the method are short which help raise cohesion of the code. Also, this class
+has very low coupling. The number of dependencies on other class is low. The high cohesion and low coupling will allow user to change
+the code behavior easiliy. This class is a high quality code.
+
+If some content is changed in this class, the only thing will happen is the behavior of sounds in game. To change the sound effect
+in the game, only thing need to do is load a different sound file. It is highly mantainable and reusable. 

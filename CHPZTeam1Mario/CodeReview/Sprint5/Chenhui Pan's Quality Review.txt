@@ -1,0 +1,14 @@
+﻿Author of the code review: Chenhui Pan
+Date of the code review: 
+07/19/2016
+Sprint number: Sprint 5
+Name of the .cs file being reviewed: 
+UnderWorld.cs
+Author of the .cs file being reviewed: 
+Shicheng Chu
+Specific comments on code quality:
+The code quality of this class looks good. It's similiar to the LevelClass file, which only does the job of creating the new world. The code is readable and maintable.
+The cohesion and coupling is acceptable, since not many variables were passed to this class. Also, it has a low dependency.
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change:
+If we want to add new type of items in the new world, then we could just add these items in the Update() method.
+

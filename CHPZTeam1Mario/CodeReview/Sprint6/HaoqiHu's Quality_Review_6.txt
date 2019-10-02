@@ -1,0 +1,11 @@
+Author of the code review: Haoqi Hu
+Date of the code review: 
+07/31/2016
+Sprint number: Sprint 6
+Name of the .cs file being reviewed: 
+WorderManager.cs
+Author of the .cs file being reviewed: 
+Shicheng Chu Haoqi Hu Yifei Zhao ChengHui Pan
+Specific comments on code quality:
+The cohesion and coupling of the code are fine, but the class depend heavily on levelloader class. This could be improved if we put some object in worldManager class, and store
+the compaign of the game in gameloader class.

@@ -1,0 +1,12 @@
+﻿Yifei Zhao
+6/21/2016
+Sprint3
+Shicheng Chu
+MEnemyCollisionHandler.cs
+Code Quality:
+The overall quality of this class is good. The only method in the class takes 3 parameters and does operations on those 
+parameters. Changing code in those parameters will not affect the collision handler. Thus, it has low coupling. This class
+did its own job well and only did it own job. So it is in high cohesion. To maintain and reuse this class is relatively easy.
+
+If some content is changed in this class, the only thing will happen is the behavior of collision objects. The game project
+can deal with these changes.

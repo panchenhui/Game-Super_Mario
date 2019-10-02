@@ -1,0 +1,11 @@
+Author of the code review: Haoqi Hu
+Date of the code review: 
+07/05/2016
+Sprint number: Sprint 4
+Name of the .cs file being reviewed: 
+HiddenBlockClass
+Author of the .cs file being reviewed: 
+Shicheng Chu
+Specific comments on code quality:
+In General, the code quality is pretty good,it only contains the basic function of the hidden block, making the code very conhensive.
+A hypothesis to make change is that Create abstract class for block, and all block-related classes implement blcokAbstract, that could save a lot of code. 

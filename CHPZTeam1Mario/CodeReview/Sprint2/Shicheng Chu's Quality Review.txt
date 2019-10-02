@@ -1,0 +1,21 @@
+﻿Author of the code review: Shicheng Chu
+
+Date of the code review: 06/07/2016
+
+Sprint number: Sprint 2
+
+Name of the .cs file being reviewed:
+	EnemySpriteFactory.cs
+	Game1.cs
+Author of the .cs file being reviewed:
+	Haoqi Hu
+Specific comments on code quality:
+		For EnemySpriteFactory.cs, the only purpose is to create sprite sheet of enemies such as Goomba 
+	and Koopa and there is no unnecessary variable, filed or function. Thus, the cohesion for this 
+	factory class is in high cohesion. Also, it just uses one other class, so it is in loose coupling.
+	It is easy for us to add new method to create sprite sheet for new kinds of enemies. However, it could only
+	be used to create sprite sheet for enemies and cannot be used to create sprite sheet for blocks and Mario since
+	it only loads one enemy sprite sheet.
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change
+		If we want to create a new kind of enemy but this new one does not show on the "enemies" picture, we must add a new variable of Texture2D and load it in the 
+		LoadAllTexure method. It is easy to add these codes.

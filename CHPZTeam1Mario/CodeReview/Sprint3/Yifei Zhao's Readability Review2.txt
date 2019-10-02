@@ -1,0 +1,10 @@
+﻿Yifei Zhao
+6/17/2016
+Sprint3
+MBlockCollisionHandler.cs
+Chenhui Pan
+10 Minutes
+Comments:
+The return statement is a little hard to read at the first time but it is ok to read after read through the whole collision class.
+Method name and variable name are well formatted. Switch is much more readable than multiple if-else statement. The overall 
+readability is good.

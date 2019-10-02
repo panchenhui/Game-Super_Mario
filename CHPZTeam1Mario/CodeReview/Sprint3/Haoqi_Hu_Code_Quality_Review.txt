@@ -1,0 +1,16 @@
+Author of the Code Review:
+Haoqi Hu
+Date of the Code Review:
+06/21/2016
+Sprint Number 3
+Name of the .cs file being revirwed:
+WorldManager.cs
+Author of the .cs file being reviewed:
+Haoqi Hu, Yifei Zhao, Chenghui Pan, Shicheng Chu
+Specific Comments on Code Quality:
+1. Cohension and Coupling stuff are good. 
+2. It could be simplified by introducing LevelClass into it.
+Hypothesis:
+If we use LevelClass in our code, we could move all the content of load, and 
+update into LevelClass, and in WorldManager, we just need to use specific arrayList to
+call the corressponding load, update method. This could simplify our code a lot. 

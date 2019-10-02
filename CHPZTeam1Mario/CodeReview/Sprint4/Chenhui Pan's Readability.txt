@@ -1,0 +1,14 @@
+﻿Author of the code review: Chenhui Pan	
+Date of the code review: 
+07/01/2016
+Sprint number: 
+Sprint 4
+Name of the .cs file being reviewed: 
+MarioFireBall.cs
+Author of the .cs file being reviewed: 
+Shicheng Chu
+Number of minutes taken to complete the review: 4
+Specific comments on what is readable and what is not:
+Readable: The file names and variable names are easy and simple. The funcionality of the methods is clear. 
+	      But there still exits some magic numbers, which decreases the readability.
+

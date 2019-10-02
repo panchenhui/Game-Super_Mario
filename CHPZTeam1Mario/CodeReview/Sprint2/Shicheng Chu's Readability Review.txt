@@ -1,0 +1,10 @@
+﻿Author of the code review : Shicheng Chu
+Date of the code review : 06/03/2016
+Sprint number : 2
+Name of the .cs file being reviewed:
+	LeftWalkStopFireMario.cs
+	FMLeftWalkState.cs
+Author of the .cs file being reviewed : Haoqi Hu
+Number of minutes taken to complete the review : 10 mins
+Specific comments on what is readable and what is not:
+	The names of the classes are readable but they do not follow the same naming-pattern as other classes such as "SpriteBMLeftRun.cs".  It may be better if put the "Sprite" or "S" at the beginning to indicate that this is a sprite.

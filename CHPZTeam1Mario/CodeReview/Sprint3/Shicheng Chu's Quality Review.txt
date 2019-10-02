@@ -1,0 +1,19 @@
+﻿Author of the code review: Shicheng Chu
+
+Date of the code review: 06/21/2016
+
+Sprint number: Sprint 3
+
+Name of the .cs file being reviewed:
+	WorldManager.cs
+	SuperMario.cs
+Author of the .cs file being reviewed:
+	Yifei Zhao
+Specific comments on code quality:
+		For WorldManager.cs, its only purpose is to manage a Mario game world. Every filed and function are used to create, update and draw a Mario game world. Therefore,
+		the cohesion for this class is high. However, it has used various classes such as Goomba, Koopa, and lists for enemy, item and blocks. Therefore, it is a tightly coupling
+		class.
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change
+		This WorldManager could only be used for this sprint. If we want to add new levels for Mario game, this WorldManager is useless and we must write a new worldManager.
+		My solution is to write a interface named IWorldManager and every worldManager class must implememt this interface. It is convenient for us to create different worldManager
+		of different level.

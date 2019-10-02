@@ -1,0 +1,9 @@
+Author of the code review: Chenhui Pan
+Date of the code review: 06/21/2016
+Sprint number: Sprint 3
+Name of the .cs file being reviewed: ControllerKeyBoard.cs
+Author of the .cs file being reviewed: ShiCheng Chu
+Specific comments on code quality:
+The code is readable and maintable, each method is clear. It's high cohesion and low coupling. This class only does the actions that related to the keyboard.
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change:
+If the keys to control mario's movement are changed, then it's easy to implement this. We can just modify the Keyboard.Add() to support that change.

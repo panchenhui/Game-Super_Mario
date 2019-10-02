@@ -1,0 +1,9 @@
+﻿Yifei Zhao
+6/3/2016
+Sprint2
+BlockSprites.cs
+Chenhui Pan
+5 Minutes
+Comments:
+The two variables sourceLocX and sourceLocY are not very easy to understand at first but it is not a very big problem to read with its function.
+Other parts are pretty much the same as the other teammates.

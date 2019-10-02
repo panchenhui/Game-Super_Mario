@@ -1,0 +1,20 @@
+Author of the code review: Haoqi Hu
+Date of the code review: 06/07/2016
+Sprint number: Sprint number 2
+Name of the .cs file being reviewed:
+All the .cs files in States file
+Author of the .cs file being reviewed:
+Haoqi Hu
+Yifei Zhao
+ShiCheng Chu
+Specific comments on code quality:
+All these code are in very low cohension. We used a lot of states in this program,
+and most of the code in State file is very similar, just change the names of specific
+states. We could reduce the complexity of these code by using abstract class and let 
+the .cs files in State file extends it.
+A hypothetical change to make to the game related to file being reviewed and 
+how the current implementation could or could not easily support that change:
+For example, let's say if we create an abstract class called MarioStateAction, which
+implements the Crouch,Stand,Jump,Walk and Dead actions of MarioState. In that way, we
+need to change the States file completely. That is a huge amount of work, and that is
+why these codes are in low maintainability. 

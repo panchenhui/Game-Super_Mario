@@ -1,0 +1,12 @@
+﻿Yifei Zhao
+6/7/2016
+Sprint2
+Chenhui Pan
+PipeSprite.cs
+Code Quality:
+The readabilty of the code is good. All the method and variable name is in the same pattern of group and it is easily read.
+The code is low coupling and high cohesion. Thus, this code is in good maintainability and reusability. This class only deal with the sprite of pipe,
+so whenever need to change the content of the code, the only thing need to do is to add method or change coordinates values.
+
+The code is capable of being changed when the game need to be change. The size of the pipe can be changed by changing the X Y coordinnate of the rectangle.
+The speed of frames of the annimation can also be changed by changing the speed variable. 

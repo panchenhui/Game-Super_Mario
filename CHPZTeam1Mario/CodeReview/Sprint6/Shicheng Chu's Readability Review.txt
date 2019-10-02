@@ -1,0 +1,13 @@
+﻿Author of the code review: Shicheng Chu
+
+Date of the code review: 07/28/2016
+Sprint number : 6
+Name of the .cs file being reviewed:
+	BossPrincess.cs
+Author of the .cs file being reviewed:
+	Yifei Zhao
+Number of minutes taken to complete the review: 10mins
+Specific comments on what is readable and what is not:
+		The overall readability of this class is good. Some method is long but is under 25 lines. It takes some time to read but
+	it is readable. There are some magic number in this class. Hopefully, in the future, the magic number problem can be
+	fixed. The method name and variable name are reasonable.

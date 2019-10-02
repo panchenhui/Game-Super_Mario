@@ -1,0 +1,23 @@
+﻿Author of the code review: Shicheng Chu
+
+Date of the code review: 07/05/2016
+
+Sprint number: Sprint 4
+
+Name of the .cs file being reviewed:
+	Camera.cs
+	GoombaClass.cs
+	LevelClass.cs
+	SMLeftIdleSprite.cs
+Author of the .cs file being reviewed:
+	Yifei Zhao
+
+Specific comments on code quality:
+		In the Camera.cs, it has two variables--cameraPositionX and cameraPositionY. However, since the camera will not move up and down,
+	the cameraPositionY is always 0. Therefore, the cameraPositionY is unnecessary or useless for the Camera.cs and other classes that use cameraPositionY
+	(such as GoombaClass.cs, LevelClass.cs and SMLeftIdleSprite.cs).
+		Thus, the cameraPositionY will decrease the cohesion of Camera.cs.
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change
+		Now, we can delete the cameraPositionY since it is useless. However, if we want to add new features of the camera if the future, it is a good idea to
+	keep the cameraPositionY as an option. For example, if want the Mario to fly, the camera must follow Mario's movement and move up and down then the 
+	cameraPositionY could become useful.

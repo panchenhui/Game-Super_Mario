@@ -1,0 +1,135 @@
+using CHPZTeam1Mario.Interfaces;
+using CHPZTeam1Mario.Sprites.EmptyScreen;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CHPZTeam1Mario.MarioClass
+{
+    public class FinishMario : IPlayer
+    {
+        public IMarioState State { get; set; }
+        public ISprite Sprite { get; set; }
+
+        public SuperMario Mygame { get; set; }
+
+        public Vector2 Position { get; set; }
+
+        public Rectangle rectangle { get; set; }
+        public Vector2 velocity { get; set; }
+
+        public Vector2 acc { get; set; }
+
+        public IPlayer decoratedMario;
+
+        public int timer = 0;
+
+
+        public FinishMario(IPlayer decoratedMario)
+        {
+            this.Mygame = decoratedMario.Mygame;
+            this.Sprite = decoratedMario.Sprite;
+            this.State = decoratedMario.State;
+            this.Position = decoratedMario.Position;
+            this.rectangle = decoratedMario.rectangle;
+            this.decoratedMario = decoratedMario;
+            this.acc = new Vector2(0, 0);
+            this.velocity = new Vector2(0, 2);
+            decoratedMario.acc = new Vector2(0, 0);
+            decoratedMario.velocity = new Vector2(0,2);
+
+        }
+        public void Accelerate()
+        {
+        }
+        public void RelsAccelerate()
+        {
+        }
+        public void Left() { 
+        }
+
+        public void Right()
+        {
+        }
+
+        public void Up()
+        {
+        }
+
+        public void Down()
+        {
+        }
+
+        public void Dead()
+        {
+        }
+
+        public void ToBig()
+        {
+        }
+
+        public void ToSmall()
+        {
+        }
+        public void ToFire()
+        {
+        }
+        public void RelsRight()
+        {
+        }
+        public void RelsLeft()
+        {
+        }
+        public void RelsDown()
+        {
+        }
+        public void RelsUp()
+        {
+        }
+
+        public void DisableMovement(int i)
+        {
+        }
+
+        public void Draw(SpriteBatch sb, Vector2 vector)
+        {
+
+            decoratedMario.Draw(sb, vector);
+        }
+
+        public void Update()
+        {
+            timer--;
+            if (rectangle.Y > 384)
+            {
+                decoratedMario.Right();
+                velocity = new Vector2(2, 0);
+                timer = 36;
+            }
+            if (timer <= 0)
+            {
+                decoratedMario.Sprite = new EmptyScreen(Mygame.items);
+            }
+            decoratedMario.velocity = velocity;
+            this.Sprite = decoratedMario.Sprite;
+            this.Sprite.Update();
+        }
+        public void TakeDamage()
+        {
+            
+        }
+
+        public void Attack(IEnemy enemy)
+        {
+        }
+
+        void RemoveStar()
+        {
+        }
+
+    }
+}

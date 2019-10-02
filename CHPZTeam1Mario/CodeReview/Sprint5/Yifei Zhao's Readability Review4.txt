@@ -1,0 +1,9 @@
+﻿Yifei Zhao
+7/15/2016
+Sprint5
+Sound.cs
+Chenhui Pan
+10 Minutes
+Comments:
+The overall readability of this class is good. There is no magic number in the class. There is some string in the class, 
+but those are sound file names. It is acceptable. All the method name and variable name is readable. It is easy to read.

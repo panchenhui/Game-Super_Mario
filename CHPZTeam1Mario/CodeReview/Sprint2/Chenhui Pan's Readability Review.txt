@@ -1,0 +1,20 @@
+Author of the code review: Chenhui Pan
+Date of the code review: 06/03/2016
+Sprint number: Sprint2
+Name of the .cs file being reviewed: SpriteSMLeftIdle.cs 
+Author of the .cs: Shicheng Chu
+Number of minutes taken to complete the review: 5
+Specific comments on what is readable and what is not:
+The code is clear and simple,it's easy to understand. But some names of the files may be not proper, such as "SriteSMLeftIdle.cs", I think put the adjective word at the beginning of the name would be better, like StandingSMSprite.cs.
+
+
+Author of the code review: Chenhui Pan
+Date of the code review: 06/03/2016
+Sprint number: Sprint2
+Name of the .cs file being reviewed:  SpriteSMLeftRun.cs
+Author of the .cs: Shicheng Chu
+Number of minutes taken to complete the review: 6
+Specific comments on what is readable and what is not:
+Readable: The code clear and simple. The algorithm of the animation is also understandable.
+Some variable names are not very understandable, such as width and height, when I saw them at the first glance, I didn't know it's whose width or whose height.
+

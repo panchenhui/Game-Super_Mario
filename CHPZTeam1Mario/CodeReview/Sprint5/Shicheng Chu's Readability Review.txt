@@ -1,0 +1,16 @@
+﻿Author of the code review: Shicheng Chu
+Date of the code review: 07/15/2016
+Sprint number : 5
+Name of the .cs file being reviewed:
+	Enum.cs
+	EEnemyCollisionHandler.cs
+	ECollisionDetector.cs
+Author of the .cs file being reviewed:
+	Yifei Zhao---Enum.cs
+	EEnemyCollisionHandler.cs---Yifei Zhao
+	ECollisionDetector.cs---Haoqi Hu
+Number of minutes taken to complete the review: 10mins
+Specific comments on what is readable and what is not:
+		Yifei Zhao have written an Enum class to reduce magic numbers. Haoqi Hu and Yifei Zhao use enum to replace the magic number in EEnemyCollisionHandler and ECollisionDetector.
+	Now the original integers like 1, 2, 3, 4 have become Enum.DisableMovementType.*** so others will easily understand what they mean. For example, Enum.DisableMovementType.Down
+	means the movement to the downside will be disabled.

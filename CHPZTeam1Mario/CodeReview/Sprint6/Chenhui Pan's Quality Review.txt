@@ -1,0 +1,14 @@
+Author of the code review: Chenhui Pan
+Date of the code review: 
+07/28/2016
+Sprint number: Sprint 6
+Name of the .cs file being reviewed: 
+Level1_4.cs
+Author of the .cs file being reviewed: 
+Shicheng Chu
+Specific comments on code quality:
+The code quality of this class looks good.It is used to output strings on the screen. It would be better if the fileds are fewer. The code is readable and maintable.
+The cohesion and coupling is acceptable, since not many variables were passed to this class. Also, it has a low dependency.
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change:
+If we want to add different level, then we only need to change the  xml file name.
+

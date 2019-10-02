@@ -1,0 +1,18 @@
+﻿Author of the code review: Shicheng Chu
+
+Date of the code review: 07/28/2016
+Sprint number : 6
+Name of the .cs file being reviewed:
+	BossPrincess.cs
+Author of the .cs file being reviewed:
+	Yifei Zhao
+Number of minutes taken to complete the review: 10mins
+
+Specific comments on code quality:
+		The code quality of this class is good. In the beginning of this class, there is some public fields. It will be better if these
+	fields can be reduced or change to private.But some of them are nessicessary. All the method do its job and only do its job. Thus
+	the cohesion is high in this class. This code has good maintainability and reusability. 
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change
+		If something need to be changed in this class. The program can handle these changes since this class is only responsible for
+	the behavior of BossPrincess object. 	

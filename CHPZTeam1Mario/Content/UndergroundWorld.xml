@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Level>
+  <undergroundFloor x="-32" y ="416" />
+  <undergroundFloor x="-64" y ="416" />
+  <undergroundFloor x="-96" y ="416" />
+  <undergroundFloor x="-128" y ="416" />
+  <undergroundFloor x="-160" y ="416" />
+  <undergroundFloor x="-192" y ="416" />
+  <undergroundFloor x="-224" y ="416" />
+  <undergroundFloor x="-256" y ="416" />
+  <undergroundFloor x="-288" y ="416" />
+  <undergroundFloor x="-320" y ="416" />
+  <undergroundFloor x="-352" y ="416" />
+  <undergroundFloor x="-384" y ="416" />
+  <undergroundFloor x="-416" y ="416" />
+  <undergroundFloor x="0" y ="416" />
+  <undergroundFloor x="32" y ="416" />
+  <undergroundFloor x="64" y ="416" />
+  <undergroundFloor x="96" y ="416" />
+  <undergroundFloor x="128" y ="416" />
+  <undergroundFloor x="160" y ="416" />
+  <undergroundFloor x="192" y ="416" />
+  <undergroundFloor x="224" y ="416" />
+  <undergroundFloor x="256" y ="416" />
+  <undergroundFloor x="288" y ="416" />
+  <undergroundFloor x="320" y ="416" />
+  <undergroundFloor x="352" y ="416" />
+  <undergroundFloor x="384" y ="416" />
+  <undergroundFloor x="416" y ="416" />
+  <undergroundFloor x="448" y ="416" />
+  <undergroundFloor x="480" y ="416" />
+  <undergroundFloor x="512" y ="416" />
+  <undergroundFloor x="544" y ="416" />
+  <undergroundFloor x="576" y ="416" />
+  <undergroundFloor x="608" y ="416" />
+  <undergroundFloor x="640" y ="416" />
+  <undergroundFloor x="672" y ="416" />
+  <undergroundFloor x="704" y ="416" />
+  <undergroundFloor x="736" y ="416" />
+  <undergroundFloor x="768" y ="416" />
+  <undergroundFloor x="800" y ="416" />
+
+  <undergroundFloor x="-32" y ="448" />
+  <undergroundFloor x="-64" y ="448" />
+  <undergroundFloor x="-96" y ="448" />
+  <undergroundFloor x="-128" y ="448" />
+  <undergroundFloor x="-160" y ="448" />
+  <undergroundFloor x="-192" y ="448" />
+  <undergroundFloor x="-224" y ="448" />
+  <undergroundFloor x="-256" y ="448" />
+  <undergroundFloor x="-288" y ="448" />
+  <undergroundFloor x="-320" y ="448" />
+  <undergroundFloor x="-352" y ="448" />
+  <undergroundFloor x="-384" y ="448" />
+  <undergroundFloor x="-416" y ="448" />
+  <undergroundFloor x="0" y ="448" />
+  <undergroundFloor x="32" y ="448" />
+  <undergroundFloor x="64" y ="448" />
+  <undergroundFloor x="96" y ="448" />
+  <undergroundFloor x="128" y ="448" />
+  <undergroundFloor x="160" y ="448" />
+  <undergroundFloor x="192" y ="448" />
+  <undergroundFloor x="224" y ="448" />
+  <undergroundFloor x="256" y ="448" />
+  <undergroundFloor x="288" y ="448" />
+  <undergroundFloor x="320" y ="448" />
+  <undergroundFloor x="352" y ="448" />
+  <undergroundFloor x="384" y ="448" />
+  <undergroundFloor x="416" y ="448" />
+  <undergroundFloor x="448" y ="448" />
+  <undergroundFloor x="480" y ="448" />
+  <undergroundFloor x="512" y ="448" />
+  <undergroundFloor x="544" y ="448" />
+  <undergroundFloor x="576" y ="448" />
+  <undergroundFloor x="608" y ="448" />
+  <undergroundFloor x="640" y ="448" />
+  <undergroundFloor x="672" y ="448" />
+  <undergroundFloor x="704" y ="448" />
+  <undergroundFloor x="736" y ="448" />
+  <undergroundFloor x="768" y ="448" />
+  <undergroundFloor x="800" y ="448" />
+
+  <undergroundBrick x="0" y="384"/>
+  <undergroundBrick x="0" y="352"/>
+  <undergroundBrick x="0" y="320"/>
+  <undergroundBrick x="0" y="288"/>
+  <undergroundBrick x="0" y="256"/>
+  <undergroundBrick x="0" y="224"/>
+  <undergroundBrick x="0" y="192"/>
+  <undergroundBrick x="0" y="160"/>
+  <undergroundBrick x="0" y="128"/>
+  <undergroundBrick x="0" y="96"/>
+  <undergroundBrick x="0" y="64"/>
+
+
+  <undergroundBrick x="192" y="384"/>
+  <undergroundBrick x="224" y="384"/>
+  <undergroundBrick x="256" y="384"/>
+  <undergroundBrick x="288" y="384"/>
+  <undergroundBrick x="320" y="384"/>
+  <undergroundBrick x="352" y="384"/>
+  <undergroundBrick x="384" y="384"/>
+  <undergroundBrick x="416" y="384"/>
+  <undergroundBrick x="448" y="384"/>
+  <undergroundBrick x="480" y="384"/>
+  <undergroundBrick x="512" y="384"/>
+  <undergroundBrick x="544" y="384"/>
+
+  <undergroundBrick x="192" y="352"/>
+  <undergroundBrick x="224" y="352"/>
+  <undergroundBrick x="256" y="352"/>
+  <undergroundBrick x="288" y="352"/>
+  <undergroundBrick x="320" y="352"/>
+  <undergroundBrick x="352" y="352"/>
+  <undergroundBrick x="384" y="352"/>
+  <undergroundBrick x="416" y="352"/>
+  <undergroundBrick x="448" y="352"/>
+  <undergroundBrick x="480" y="352"/>
+  <undergroundBrick x="512" y="352"/>
+  <undergroundBrick x="544" y="352"/>
+
+  <undergroundBrick x="192" y="320"/>
+  <undergroundBrick x="224" y="320"/>
+  <undergroundBrick x="256" y="320"/>
+  <undergroundBrick x="288" y="320"/>
+  <undergroundBrick x="320" y="320"/>
+  <undergroundBrick x="352" y="320"/>
+  <undergroundBrick x="384" y="320"/>
+  <undergroundBrick x="416" y="320"/>
+  <undergroundBrick x="448" y="320"/>
+  <undergroundBrick x="480" y="320"/>
+  <undergroundBrick x="512" y="320"/>
+  <undergroundBrick x="544" y="320"/>
+
+  <undergroundBrick x="192" y="64"/>
+  <undergroundBrick x="224" y="64"/>
+  <undergroundBrick x="256" y="64"/>
+  <undergroundBrick x="288" y="64"/>
+  <undergroundBrick x="320" y="64"/>
+  <undergroundBrick x="352" y="64"/>
+  <undergroundBrick x="384" y="64"/>
+  <undergroundBrick x="416" y="64"/>
+  <undergroundBrick x="448" y="64"/>
+  <undergroundBrick x="480" y="64"/>
+  <undergroundBrick x="512" y="64"/>
+  <undergroundBrick x="544" y="64"/>
+
+
+  <staticCoin x="268" y="290"/>
+  <staticCoin x="304" y="290"/>
+  <staticCoin x="340" y="290"/>
+  <staticCoin x="376" y="290"/>
+  <staticCoin x="412" y="290"/>
+  <staticCoin x="448" y="290"/>
+  <staticCoin x="484" y="290"/>
+
+  <staticCoin x="268" y="230"/>
+  <staticCoin x="304" y="230"/>
+  <staticCoin x="340" y="230"/>
+  <staticCoin x="376" y="230"/>
+  <staticCoin x="412" y="230"/>
+  <staticCoin x="448" y="230"/>
+  <staticCoin x="484" y="230"/>
+
+  <staticCoin x="304" y="170"/>
+  <staticCoin x="340" y="170"/>
+  <staticCoin x="376" y="170"/>
+  <staticCoin x="412" y="170"/>
+  <staticCoin x="448" y="170"/>
+
+  <undergroundPipe x="676" y="352"/>
+  <undergroundPipe2 x="746" y="160"/>
+
+  <questionBlock x="100" y="300" item="redMushroom"/>
+</Level>

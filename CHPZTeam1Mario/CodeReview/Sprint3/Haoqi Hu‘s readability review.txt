@@ -1,0 +1,11 @@
+Author of the code riview: Haoqi Hu	
+Date of the code view: 06/17/2016
+Sprint 3
+Name of the .cs file being reviewed: collision.cs
+Author of the .cs file being reviewed: Yifei Zhao
+Number of minutes taken to complete the reivew: 10 minutes
+Specific comments on what is readable and what is not:
+Readable:
+1. Easily understand method names.
+2. Easily understand variable names. 
+3. it is very good practice to use enums instead of the integers, which indicates the kinds of collision very clearly. 

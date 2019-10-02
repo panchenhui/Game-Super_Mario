@@ -1,0 +1,18 @@
+﻿Author of the code review: Shicheng Chu
+Date of the code review: 07/19/2016
+Sprint number : 5
+Name of the .cs file being reviewed:
+	Enum.cs
+	EEnemyCollisionHandler.cs
+	ECollisionDetector.cs
+Author of the .cs file being reviewed:
+	Yifei Zhao---Enum.cs
+	EEnemyCollisionHandler.cs---Yifei Zhao
+	ECollisionDetector.cs---Haoqi Hu
+Number of minutes taken to complete the review: 10mins
+Specific comments on code quality:
+		Since the EEnemyCollisionHandler and ECollisionDetector just have one method, every varible will be used in the only method. Thus the cohesion of these two classes
+	is high. On the other hand, both of the two classes use the Enum class. The Enum class could raise the coupling of the two classes but will not cause problems.
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change
+		In the future, we can add new Enum types in the Enum class without influence on the EEnemyCollisionHandler and ECollisionDetector classes. The reusability of the Enum
+	is pretty high.

@@ -1,0 +1,12 @@
+﻿Author of the code review: Chenhui Pan
+Date of the code review: 
+07/05/2016
+Sprint number: Sprint 4
+Name of the .cs file being reviewed: 
+RedMREatMario.cs
+Author of the .cs file being reviewed: 
+Haoqi Hu
+Specific comments on code quality:
+Generally, the code quality of this class is good. It uses the decorate design pattern to show the animation of small mario to big mario. The code is readable and maintable, but it's a bit long.
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change:
+If we want to changed the state of mario after eating the red mushroom, then we can just modify the Update() method to change the state that we want it t be.

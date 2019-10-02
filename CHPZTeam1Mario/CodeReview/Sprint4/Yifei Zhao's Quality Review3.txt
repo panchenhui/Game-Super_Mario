@@ -1,0 +1,13 @@
+﻿Yifei zhao
+7/05/2016
+Sprint4
+Chenhui Pan
+BrickWithItemsClass.cs
+Code Quality:
+The overall quality of this class is good. The Update method is a little long but comparing to its functionality, every code here
+is necessary. Also, many variable like counter and timer were used in this class. These variables increase the logic complexity
+of the code, but it will not increase the coupling problem. Thus, it is acceptable. These class has good cohesion and low coupling. 
+The only coupling problem is the Enum class, but it can help reduce magic number or strings. So, I thing this is ok.  
+
+If some content is changed in this class, the only thing will happen is the behavior of brickblock objects in game. The game project
+can deal with these changes.

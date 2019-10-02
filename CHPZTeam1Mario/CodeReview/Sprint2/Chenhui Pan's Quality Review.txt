@@ -1,0 +1,19 @@
+Author of the code review: Chenhui Pan
+Date of the code review: 06/07/2016
+Sprint number: Sprint 2
+Name of the .cs file being reviewed: SMLeftJumpState
+Author of the .cs file being reviewed: ShiCheng Chu
+Specific comments on code quality:
+These codes are easily maintainable, since each method only does the thing based on it's name.  In addition, they are high cohesion and low coupling. Such as the SMLeftJumpState, it only do transition of the small mario left jump state. 
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change:
+For example, if we want to add the state like right jump, then it's easily to add a new file say SMRightJumpState.cs.
+
+Author of the code review: Chenhui Pan
+Date of the code review: 06/17/2016
+Sprint number: Sprint 3
+Name of the .cs file being reviewed: ControllerKeyBoard.cs
+Author of the .cs file being reviewed: ShiCheng Chu
+Specific comments on code quality:
+The code is readable and maintable, each method is clear. Each key press action corresponds to two keys.
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change:
+If the keys to control mario's movement are changed, then it's easy to implement this. We can just modify the Keyboard.Add() to support that change.

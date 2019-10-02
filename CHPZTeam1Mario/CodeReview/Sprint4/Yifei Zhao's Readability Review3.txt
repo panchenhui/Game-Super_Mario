@@ -1,0 +1,10 @@
+﻿Yifei Zhao
+7/1/2016
+Sprint4
+StarMario.cs
+Shicheng Chu
+10 Minutes
+Comments:
+The overall readability of this class is good. The number of variable is large but the name of variable is reasonable. The readability of variables is good.
+Every method name is the same as mario class since it is a decorated class. And the method name is clear. The timer logic is a little bit tricky but it is not 
+so hard to understand. Therefore, this class has good code readability.

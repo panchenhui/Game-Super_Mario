@@ -1,0 +1,14 @@
+﻿Author of the code review: Shicheng Chu
+Date of the code review: 07/01/2016
+Sprint number : 4
+Name of the .cs file being reviewed:
+	Enum.cs
+	BFTakeDamageMario.cs
+Author of the .cs file being reviewed:
+	Yifei Zhao---Enum.cs
+	BFTakeDamageMario.cs---Haoqi Hu
+Number of minutes taken to complete the review: 10mins
+Specific comments on what is readable and what is not:
+	In BFTakeDamageMario.cs, Haoqi Hu took lots of if-else clauses in the constructor, which is difficult to understand how it construct a BFTakeDamageMario and what the functionality
+	a BFTakeDamageMario has. Yifei Zhao's Enum.cs is helpful to solve such problem. Maybe we can add more enum in the Enum.cs and revise Sprite Class's fields to make our code more 
+	readable. Also, in each Collision Handler class, we have lots of magic numbers, we can also use enum so reduce magic numbers.

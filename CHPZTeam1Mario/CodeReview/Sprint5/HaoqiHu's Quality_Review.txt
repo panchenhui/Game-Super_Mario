@@ -1,0 +1,11 @@
+Author of the code review: Haoqi Hu
+Date of the code review: 
+07/19/2016
+Sprint number: Sprint 5
+Name of the .cs file being reviewed: 
+HUDClass.cs
+Author of the .cs file being reviewed: 
+Yifei Zhao
+Specific comments on code quality:
+The cohesion and coupling of the code are fine, but could be improved if we create time and score class separately, and using them to 
+calculate the score and time. By doing that, we could separate the score and time system, and disable them from affect each other. 

@@ -1,0 +1,13 @@
+﻿Author of the code review: Shicheng Chu
+Date of the code review: 06/17/2016
+Sprint number : 3
+Name of the .cs file being reviewed:
+	Collision.cs
+	CollisionDetector.cs
+	MEnemyCollitionHandler.cs
+Author of the .cs file being reviewed:
+	Yifei Zhao
+Number of minutes taken to complete the review: 10mins
+Specific comments on what is readable and what is not:
+	Most of the variable names and the functions names are easy to understand its purpose, such as "Collision.CollisionType.Below" which means the collision us from bottom to top. Also, the loops and if-else are not overmuch.
+	However, some switch cases are not easy to understand. For example, MEnemyCollitionHandler.Update() can return an integer to disable Mario's movement in specific direction, but the integer cannot let me know which direction is. To improve this, returning a string such as "DisableUp" could be a better choice.
